@@ -37,22 +37,29 @@ const Navbar = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
                   <DropdownMenuItem className="rounded-md p-2 text-sm hover:bg-zinc-50">
-                    <Link href="/">Toyota</Link>
+                    <Link href="/mobil/toyota">Toyota</Link>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem className="rounded-md p-2 text-sm hover:bg-zinc-50">
-                    <Link href="/">Honda</Link>
+                    <Link href="/mobil/honda">Honda</Link>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem className="rounded-md p-2 text-sm hover:bg-zinc-50">
-                    <Link href="/">Daihatsu</Link>
+                    <Link href="/mobil/daihatsu">Daihatsu</Link>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem className="rounded-md p-2 text-sm hover:bg-zinc-50">
-                    <Link href="/">Suzuki</Link>
+                    <Link href="/mobil/suzuki">Suzuki</Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="/info">
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Info
+                </NavigationMenuLink>
+              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/">
